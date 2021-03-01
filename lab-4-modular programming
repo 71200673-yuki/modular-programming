@@ -1,0 +1,4 @@
+def sisa_hutang(hutang,jumlah_bayar):
+    bayar_hutang= hutang - jumlah_bayar
+    return bayar_hutang
+print("sisa hutang adalah:Rp ",(sisa_hutang(15250000,173500)))
